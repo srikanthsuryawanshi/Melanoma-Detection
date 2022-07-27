@@ -22,7 +22,8 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 ## Conclusions
 - Model 1 - CNN Multi layers with dropouts  - This one resulted in under-fit. No good accuracy for train data. model performed similar for both "train dataset" and "Validation dataset"
-- Model 3 - CNN layers with image augmentation -
+- Model 2 - CNN layers with image augmentation - Data augmentation was added to balance the data, looks like adding extra layers and batch normalisation is not helping much.
+- Model 3 - CNN Layers - reduced complexity - reducing the layers, normalisation and dropouts, Accuracy improved, simple model saves the day.
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
